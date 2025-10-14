@@ -8,7 +8,7 @@ For the button input of my implementation, I enabled the internal pull-up resist
 external interrupt on the falling edge. In order to make the button more reliable, I added a
 software debounce using esp_timer_get_time(), so accidental multiple detections from
 bouncing contacts are filtered out. Each valid button press cycles through a state machine that
-changes the LED pattern (OFF → LED1 → LED2 → LED3 → ALL).
+changes the LED pattern (off → led1 → led2 → led3 → all).
 The main special thing about my solution is that it uses register-level LED control plus an
 interrupt-driven button instead of simple polling or Arduino functions. This matches real
 embedded system practices and makes the program more responsive and efficient.
