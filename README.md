@@ -12,3 +12,11 @@ changes the LED pattern (off → led1 → led2 → led3 → all).
 The main special thing about my solution is that it uses register-level LED control plus an
 interrupt-driven button instead of simple polling or Arduino functions. This matches real
 embedded system practices and makes the program more responsive and efficient.
+
+## Subheader
+
+Git tutorial
+
+## Local development
+
+1. Open index.html in your browser.
